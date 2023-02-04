@@ -1,0 +1,39 @@
+.container {
+  padding-inline: 20%;
+}
+
+.formContainer .input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input {
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 15px;
+  background-color: #cccec2;
+  border: none;
+  border-radius: 5px;
+}
+
+.list-card {
+  border: solid 1px #ccc;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 10px;
+  place-items: center;
+}

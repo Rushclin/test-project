@@ -1,7 +1,9 @@
 import React from "react";
+import ProfilePage from "../pages/ProfilePage";
+import "./App.css";
 
 const App = () => {
-  return <div>App</div>;
+  return <ProfilePage />;
 };
 
 export default App;
