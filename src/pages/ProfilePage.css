@@ -2,7 +2,7 @@
   padding-inline: 20%;
 }
 
-.formContainer .input {
+.formContainer .inputContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -12,6 +12,7 @@
 .form-input {
   padding: 10px;
   margin-left: 20px;
+  outline: none;
 }
 
 .buttonContainer {
@@ -36,4 +37,18 @@
   grid-gap: 20px;
   padding: 10px;
   place-items: center;
+}
+
+@media (max-width: 900px) {
+  .list-card {
+    grid-template-columns: 1fr;
+  }
+
+  .formContainer .inputContainer {
+    flex-direction: column;
+  }
+
+  .form-input {
+    margin-top: 20px;
+  }
 }

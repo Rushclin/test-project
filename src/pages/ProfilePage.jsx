@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Profile from "../components/Profile";
 import "./ProfilePage.css";
 
-const ProfilePage = (props) => {
+const ProfilePage = () => {
   const [profiles, setProfiles] = useState([]);
   const [nbr, setNbr] = useState(0);
   const [loading, setLoading] = useState(false);
@@ -37,7 +37,7 @@ const ProfilePage = (props) => {
   return (
     <div className="container">
       <div className="formContainer">
-        <div className="input">
+        <div className="inputContainer">
           <label htmlFor="nombre">Combien d'utilisateur a afficher ?</label>
           <input
             type="number"
