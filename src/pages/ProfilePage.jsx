@@ -63,7 +63,7 @@ const ProfilePage = () => {
 
       <div className="list-card">
         {profiles.map((profile) => (
-          <Profile profile={profile} />
+          <Profile key={profile?.id} profile={profile} />
         ))}
       </div>
     </div>

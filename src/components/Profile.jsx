@@ -19,7 +19,7 @@ const Profile = (props) => {
           <img src={avatar} alt={email} />
           <strong>{`${first_name} ${last_name}`}</strong>
         </div>
-        <div class="card-back">
+        <div className="card-back">
           <h1>{date_of_birth}</h1>
           <p>{employment?.title}</p>
           <p>{address?.city}</p>
